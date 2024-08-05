@@ -76,10 +76,7 @@ leaf:
           id: 6
           mgmt_ip: 192.168.0.29/24
           uplink_switch_interfaces: [ Ethernet10, Ethernet10 ]
-          git add .
-git commit -m 'add leafs'
-git push --set-upstream origin add-leafs
-
+          
 ##################################################################
 # Underlay Routing Protocol - ran on Spines
 ##################################################################
